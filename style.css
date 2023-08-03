@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    padding-top: 800px;
+    margin: 0;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right:30px;
+    cursor: pointer;
+    z-index: 10;
+}
+.links{
+    float: left;
+    color:fuchsia;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: 'Alkatra', cursive;
+    font-size: 20px;
+}
+.links:hover{
+    background-color:blueviolet;
+    color:blue;
+}
+#Welcome{
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+opacity: 0.83;
+width:100%;
+    background: linear-gradient(to right,cyan,cyan);
+    display: table;
+    position:absolute;
+    height:800px;
+    color:green;
+    z-index: 9;width:100%;
+}
+.pic{
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+#bio{
+    background-color: #ffffff;
+    text-align: center;
+    color: black;
+}
